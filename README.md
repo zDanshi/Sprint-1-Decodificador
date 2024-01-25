@@ -8,8 +8,8 @@
   <a href="#Site">Site</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 </div>
 <br>
-<img style="height:240px" src="assets/img/image2.png" alt="Project Mockup"/>
-<img style="height:240px" src="assets/img/image3.png" alt="Project Mockup"/>
+<img style="display: inline-block; margin: 0 auto; max-width: 300px" src="assets/img/image2.png" alt="Project Mockup"/>
+<img style="display: inline-block; margin: 0 auto; max-width: 300px" src="assets/img/image3.png" alt="Project Mockup"/>
 
 
 <h1 id="sobre-o-desafio"> Sobre o desafio</h1>
