@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="assets/key-svgrepo-com.svg" type="image/x-icon">
+    <title>Decodificador</title>
+
+</head>
+
+<body>
+
+    <main>
+
+        <div class="image">
+            <div class="card">
+                <h1>Criptografia </h1>
+
+               
+                <input type="text" id="original" placeholder="Digite uma palavra"><br>
+               
+                <p class="alert-text">
+                    <img src="assets/alert-2-svgrepo-com.svg" alt="Logo alerta" class="alert-img">
+                    Apenas letras minúsculas e sem acento
+                </p>
+               
+               <button class="btnCriptografar" onclick="CriptografarFunction()"><img src="assets/padlock-svgrepo-com.svg" class="lock"
+                        alt="">CRIPTOGRAFAR</button>
+                <button class="btnDescriptografar" onclick="DescriptografarFunction()"><img src="assets/padlock-unlocked-svgrepo-com.svg" class="lock"
+                        alt="">DESCRIPTOGRAFAR</button>
+
+                <button class="btn-top" onclick="LixeiraFunction()"><img class="img-trs" src="assets/trash-svgrepo-com.svg"
+                        alt=""></button>
+            </div>
+
+            <button class="btn-tutorial" onclick="TutorialFunction()">COMO USAR<img class="lock" src="assets/message-square-question-svgrepo-com.svg" alt=""></button>
+
+            <div id="myModal" class="hidden">
+
+                <div class="modal-content">
+                    <p id="modal-text"></p>
+                    <button id="close-btn">Ok</button>
+                </div>
+            </div>
+        </div>
+
+        <section class="card-saida">
+
+            <div id="no-content">
+            <img src="assets/question-flatline.svg" alt="pessoa procurando" class="saida-img">
+            <h1 class="advice-text-disable">Nenhuma palavra foi encontrada</h1>
+            <p class="advice-text-disable">Digite uma palavra que você deseja criptografar ou descriptografar</p>
+            </div>
+           
+            <div id="card-message">
+            <p class="message-resultado"id="resultado"></p>
+            <button class="btn-copy" id="position" onclick="CopiarFunction()">COPIAR</button>
+            </div>
+        
+        </section>  
+    </main>
+    <script src="app.js"></script>
+    <footer>
+        <a href="https://www.linkedin.com/in/raphaelphillipe/" target="_blank">
+            <img src="assets/linkedin.svg" alt="linkedin-logo"> 
+            <i class="linkedin"></i>
+            LinkedIn
+        </a>
+        <p>Raphael Phillipe &copy; 2024</p>
+        <a href="https://github.com/zDanshi" target="_blank">
+            <img src="assets/github-1.svg" alt="github-logo">     
+            <i class="github"></i>
+            Github
+        </a>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,330 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,400;0,600;1,400&display=swap");
+
+@media (max-width: 600px) {
+  main {
+    height: unset;
+    flex-direction: column;
+    margin-top: 30px;
+  }
+}
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 0;
+  background-color: #E1E1E5;
+  font-family: "Red Hat Display", sans-serif;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height:100vh;
+  gap: 31px;
+}
+main .card {
+  width: 450px;
+  height: 400px;
+  background-color: white;
+  border-radius: 15% 15% 17% 17%;
+
+
+}
+
+.image {
+  display: flex;
+  width: 450px;
+  height: 650px;
+  align-items: flex-end;
+  justify-content: flex-start;
+  contain: content;
+  background-image: url(assets/icon.png);
+  background-color: #000;
+  background-size: 100px;
+  background-repeat: no-repeat;
+  background-position:50% 20%;
+  border-radius: 0.5em;
+  box-shadow: 1px 10px 10px rgba(0, 0, 0, 0.2431372549);
+}
+
+.alert-text{
+  justify-content: center;
+  display: flex;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  gap: 5px;
+  line-height: 150%;
+
+}
+
+.alert-img{
+    height: 1rem;
+}
+
+.btnCriptografar {
+    position: absolute;
+    top: 70%;
+    left: 10%;
+    width: 160px;
+    height: 50px;
+    align-items: center;
+    display: inline-flex;
+    gap: 5px;
+    justify-content: center;
+}
+
+.btnCriptografar:hover {
+  background-color: #5dff9b;
+  transition: 0.7s;
+}
+
+.btnDescriptografar {
+    position: absolute;
+    top: 70%;
+    left: 55%;
+    width: 160px;
+    height: 50px;
+    align-items: center;
+    display: inline-flex;
+    gap: 5px;
+    justify-content: center;
+    
+  }
+  
+  .btnDescriptografar:hover {
+    background-color: #f06060;
+    transition: 0.7s;
+  }
+
+.btn-top {
+  position: absolute;
+  top: 50.9%;
+  right: 40px;
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  background-color: #000000;
+  border-radius: 100%;
+}
+
+.btn-top:hover {
+  background-color: #f5464671;
+  transition: 0.7s;
+}
+
+.btn:active {
+  transform: translateY(4px);
+}
+
+.btn-tutorial {
+    position: absolute;
+    top: 87%;
+    left: 35%;
+    width: 140px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    justify-content: center;
+  }
+
+.btn-tutorial:hover {
+background-color: #253565;
+transition: 0.7s;
+}
+  .btn-copy {
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    box-shadow: 1px 10px 10px rgba(0, 0, 0, 0.0941176471);
+    background-color: #000000;
+    justify-content: center;
+    height: 50px;
+    width: 200px;
+  }
+  
+  .btn-copy:hover {
+    background-color: #253565;
+    transition: 0.7s;
+  }
+
+  button {
+    padding: 10px;
+    background-color: #000000;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    font-weight: 600;
+  }
+
+  button {
+    font-weight: 600;
+    font-family: "Red Hat Display", sans-serif;
+  }
+
+.img-trs {
+  width: 30px;
+  filter: invert(100%);
+  -webkit-user-drag: none;
+}
+
+a {
+  -webkit-user-drag: none;
+}
+
+.lock {
+  width: 20px;
+  filter: invert(100%);
+  -webkit-user-drag: none;
+}
+
+input {
+  padding: 8px;
+  margin: 10px;
+  height: 24px;
+}
+
+
+h1 {
+  font-style: italic;
+  color: #353535;
+  margin-bottom: 10px;
+}
+
+input {
+  border-radius: 0.5em;
+  border: 2px solid #3E5AAE;
+  text-align: center;
+}
+
+input:focus {
+  outline-color: #3E5AAE;
+  color: #353535;
+}
+
+p {
+  color: #353535;
+  text-align: justify;
+  margin: 10px;
+}
+
+input::-moz-placeholder {
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+input::placeholder {
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+.card-saida {
+  position: relative; 
+  width: 325px;
+  height: 511px;
+  background-color: white;
+  color: #353535;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  border: 3px solid #3E5AAE;
+  border-radius: 0.5em;
+  margin-bottom: 10px;
+  box-shadow: 0px 10px 10px rgba(78, 77, 77, 0.1764705882);
+}
+
+.message-resultado{
+  display: flex;
+  position: relative; 
+  text-align: center;
+  justify-content: center;
+  width: 300px;
+  height: 60px;
+  background-color: white;
+  color: #353535;
+  border: 3px solid #000000;
+  border-radius: 0.5em;
+  margin-bottom: 10px;
+  box-shadow: 0px 10px 10px rgba(78, 77, 77, 0.1764705882);
+}
+.advice-text-disable{
+    justify-content: center;
+    display: flex;
+    font-size: 15px;
+    font-style: arial;
+    line-height: 280%;
+    font-weight: 400;
+}
+/*  modal  */
+
+#myModal{
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.4);  
+}
+
+.hidden{
+  display: none;
+}
+
+.modal-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #000000;
+  border-radius: 1em;
+  font-size: 1em;
+  padding: 45px 10px;
+  width: 60%;
+  text-align: center;
+}
+#modal-text{
+  border: 12px solid #ffffff;
+  border-radius: 1em;
+  text-align: center;
+  background-color: #ffffff;
+}
+#close-btn{
+  color:#000000;
+  font-size: 0.8em;
+  margin-top: 1em;
+  width: 40%;
+  background-color: #99fc9d;
+}
+
+#close-btn:hover{
+  opacity: 0.5;
+}
+
+footer {
+  display: flex;
+  background-color: #dadada;
+  color: var(--black-color);
+  align-items: center;
+  justify-content: center;
+  font-size: 1em;
+  gap: 1em;
+  text-align: center;
+  padding: 1em;
+  height: 4em;
+  width: 100%;
+}
+
+footer a{
+  
+  color: var(--black-color);
+}
+
+footer a:hover{
+  opacity: 0.7;
+  transition: opacity 0.5s ease;
+}
+
