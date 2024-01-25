@@ -1,6 +1,6 @@
 <div align="center">
 <h1 align="center"> Sprint 1 Challenge ONE - Turma 06</h1>
-<img align="center" src="![Logo challenge](assets/img/image.png)">
+<img align="center" src="assets/img/image.png">
 <p>O programa ONE - Oracle next education é um programa da Oracle em parceria com alura, de educação e empregabilidade com objetivo social de capacitar pessoas em tecnologia e conectá-las com o mercado de trabalho por meio de empresas parceiras.</p>
 </div>
 <div align="center">
@@ -8,8 +8,8 @@
   <a href="#Site">Site</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 </div>
 <br>
-<img src="![./Readme-IMGS/mockup_1.png](assets/img/image2.png)" alt="Project Mockup"/>
-<img src="![./Readme-IMGS/mockup_2.png](assets/img/image3.png)" alt="Project Mockup"/>
+<img src="assets/img/image2.png" alt="Project Mockup"/>
+<img src="assets/img/image3.png" alt="Project Mockup"/>
 
 
 <h1 id="sobre-o-desafio"> Sobre o desafio</h1>
@@ -40,5 +40,5 @@ O resultado deve ser exibido na tela.
 <h2 id="Site">Site finalizado</h2>
 <p></p>
 <br>
-<img src="![Alt text](assets/img/video.gif)" alt="gif-project">
+<img src="assets/img/video.gif" alt="gif-project">
 
