@@ -7,10 +7,6 @@
   <a href="#sobre-o-desafio">Sobre o desafio</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#Site">Site</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 </div>
-<br>
-<img src="assets/img/image2.png" alt="Project Mockup"/>
-<img src="assets/img/image3.png" alt="Project Mockup"/>
-
 
 <h1 id="sobre-o-desafio"> Sobre o desafio</h1>
 
@@ -38,7 +34,7 @@ gaitober" => "gato"
 O resultado deve ser exibido na tela.
 
 <h2 id="Site">Site finalizado</h2>
-<p></p>
+<p>https://zdanshi.github.io/Sprint-1-Decodificador/</p>
 <br>
 <img src="assets/img/video.gif" alt="gif-project">
 
