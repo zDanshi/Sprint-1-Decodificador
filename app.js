@@ -1,6 +1,21 @@
 const myModal = document.getElementById('myModal');
 const modalText = document.getElementById('modal-text');
 
+const darkModeIcon = document.getElementById('dark-mode-icon');
+
+let darkMode = false;
+
+darkModeIcon.addEventListener('click', () => {
+  darkMode = !darkMode;
+  document.body.classList.toggle('dark-mode', darkMode);
+  
+  if (darkMode) {
+    darkModeIcon.src = 'assets/sun-2-svgrepo-com.svg';
+  } else {
+    darkModeIcon.src = 'assets/dark-mode-svgrepo-com.svg';
+  }
+});
+
 function Remover(palavra){
    return palavra.normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/[^a-zA-Z ]/g, ''); 
 }

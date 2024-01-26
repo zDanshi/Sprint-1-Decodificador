@@ -7,11 +7,33 @@
     margin-top: 30px;
   }
 }
+.dark-mode {
+  --cor-background: #222;
+  --cor-texto: #E1E1E5;
+}
+.dark-mode #dark-mode-icon {
+  content: url("assets/sun-2-svgrepo-com.svg");
+  cursor: pointer;
+}
+
+.dark-mode-class  {
+  width: 50px;
+  cursor: pointer;
+}
+.dark-mode-class:hover{
+  background-color: #ffffff;
+  transition: 0.2s;
+  border: 2px;
+  border-radius: 60%;
+}
+
 body {
+  transition: background-color 0.5s ease;
   font-family: Arial, sans-serif;
   text-align: center;
   margin: 0;
-  background-color: #E1E1E5;
+  background-color: var(--cor-background);
+  color: var(--cor-texto);
   font-family: "Red Hat Display", sans-serif;
 }
 
@@ -27,9 +49,7 @@ main .card {
   width: 450px;
   height: 400px;
   background-color: white;
-  border-radius: 15% 15% 17% 17%;
-
-
+  border-radius: 25% 0 0 0;
 }
 
 .image {
@@ -40,12 +60,12 @@ main .card {
   justify-content: flex-start;
   contain: content;
   background-image: url(assets/icon.png);
-  background-color: #000;
+  background-color: #191919;
   background-size: 100px;
   background-repeat: no-repeat;
   background-position:50% 20%;
-  border-radius: 0.5em;
-  box-shadow: 1px 10px 10px rgba(0, 0, 0, 0.2431372549);
+  border-radius: 25% 0 0 0;
+  box-shadow: 10px 10px 10px 10px rgba(49, 49, 49, 0.176);
 }
 
 .alert-text{
@@ -105,7 +125,7 @@ main .card {
   display: inline-flex;
   align-items: center;
   gap: 5px;
-  background-color: #000000;
+  background-color: #191919;
   border-radius: 100%;
 }
 
@@ -143,7 +163,7 @@ transition: 0.7s;
     align-items: center;
     gap: 5px;
     box-shadow: 1px 10px 10px rgba(0, 0, 0, 0.0941176471);
-    background-color: #000000;
+    background-color: #191919;
     justify-content: center;
     height: 50px;
     width: 200px;
@@ -156,7 +176,7 @@ transition: 0.7s;
 
   button {
     padding: 10px;
-    background-color: #000000;
+    background-color: #191919;
     color: white;
     border: none;
     border-radius: 15px;
@@ -229,14 +249,14 @@ input::placeholder {
   position: relative; 
   width: 325px;
   height: 511px;
-  background-color: white;
-  color: #353535;
+  background-color: #FFFFF0;
+  color: #000000;
   word-wrap: break-word;
   overflow-wrap: break-word;
-  border: 3px solid #3E5AAE;
+  border: 3px;
   border-radius: 0.5em;
   margin-bottom: 10px;
-  box-shadow: 0px 10px 10px rgba(78, 77, 77, 0.1764705882);
+  box-shadow: 10px 10px 10px 10px rgba(49, 49, 49, 0.176);
 }
 
 .message-resultado{
@@ -248,7 +268,7 @@ input::placeholder {
   height: 60px;
   background-color: white;
   color: #353535;
-  border: 3px solid #000000;
+  border: 3px solid #353535;
   border-radius: 0.5em;
   margin-bottom: 10px;
   box-shadow: 0px 10px 10px rgba(78, 77, 77, 0.1764705882);
@@ -267,7 +287,7 @@ input::placeholder {
   position: fixed;
   height: 100%;
   width: 100%;
-  background-color: rgba(255, 255, 255, 0.4);  
+  background-color: rgba(212, 212, 212, 0.774);  
 }
 
 .hidden{
@@ -279,7 +299,7 @@ input::placeholder {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background-color: #000000;
+  background-color: rgb(0, 0, 0);
   border-radius: 1em;
   font-size: 1em;
   padding: 45px 10px;
@@ -314,13 +334,16 @@ footer {
   gap: 1em;
   text-align: center;
   padding: 1em;
-  height: 4em;
+  height: 5em;
   width: 100%;
 }
-
+footer p{
+  padding: 1em;
+  bottom: 50%;
+}
 footer a{
-  
-  color: var(--black-color);
+  color: #000;
+  bottom: 50%;
 }
 
 footer a:hover{
